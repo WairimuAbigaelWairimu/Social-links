@@ -10,7 +10,7 @@ body{
 
 }
 h1{
-    color: #fff;
+    color: blue;
     font-size: 3rem;
 }
 
@@ -36,5 +36,12 @@ a{
     font-size: 2.5rem;
     margin: 2px;
     box-shadow: 0 5px 4px 0 #ff00ff;
+    transition: 1s;
+    
+}
+a:hover{
+    
+    transform: scale(0.95);
+    box-shadow: 0 5px 4px 0 blue;
     
 }
